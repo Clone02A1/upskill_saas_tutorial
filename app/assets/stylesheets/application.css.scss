@@ -53,13 +53,10 @@
 
 .navbar-default .navbar-toggle {
   border: 2px solid white;
+  &:hover , &:focus {
+    background-color: #00c6ff;
+  }
 }
-
-.navbar-default .navbar-toggle:hover ,
-.navbar-default .navbar-toggle:focus {
-  background-color: #00c6ff;
-}
-
 
 
  //Home Page Styles
